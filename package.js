@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Redirect mobile, tablet, desktop etc. traffic based on whether your app is for mobiles or for desktop etc. browsers.",
+  summary: "Redirect mobile etc. traffic based on app context",
   version: "1.0.0",
   git: "https://github.com/scorpwarp23/mobile-redirect.git"
 });
