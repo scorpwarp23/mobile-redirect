@@ -1,4 +1,4 @@
-METEOR MOBILE/TABLET Redirect Package
+MeteorJS Traffic Redirect Package
 =========
 
 cybit:mobile-redirect is a meteor package that allows meteor developers to re-route mobile & tablet traffic to specific URLs. If it is installed in the context of a mobile app, it redirects non-mobile traffic to the core app/URL and vice versa.
