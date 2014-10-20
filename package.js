@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Redirect mobile etc. traffic based on app context",
-  version: "1.0.0",
+  version: "1.0.1",
   git: "https://github.com/scorpwarp23/mobile-redirect.git"
 });
 
