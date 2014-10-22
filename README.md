@@ -17,6 +17,7 @@ Features
   - Supports separate redirection for mobile & tablet apps
   - Passes route & query parameter contexts as well as cookies (to maintain login status for a user)
   - Define your own redirect URL(s) - **must be a URL other than your app.**
+  - Exclude some routes
 
 Setup
 ------------
@@ -42,7 +43,9 @@ MOBILE_REDIRECT_CONFIG={
 
     non_mobile_url:"https://app.linkwok.com", //URL to redirect non-mobile traffic to if the context of this package installation is `"mobile"`
 
-    redirect_desktop:false //This parameter is used when the current context is `mobile`. It is used to define whether desktop traffic should be redirected away from the mobile app.
+    redirect_desktop:false, //This parameter is used when the current context is `mobile`. It is used to define whether desktop traffic should be redirected away from the mobile app.
+
+    excluded_routes:[] //This is used to add routes to be excluded for redirection. Add them as `'/route-name'`, comma separated array values. **Currently excluded routes need to be static and can't have any parameters.**
 
 };
 
